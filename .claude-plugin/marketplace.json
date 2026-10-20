@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "mutagent-skills",
+  "description": "Official MutagenT skills for AI coding agents.",
+  "owner": {
+    "name": "Mutagent",
+    "email": "bcyb@mutagent.io"
+  },
+  "plugins": [
+    {
+      "name": "mutagent",
+      "source": "./",
+      "description": "Official MutagenT CLI skill for setup, package installation, usage discovery, and product feedback.",
+      "version": "0.1.208",
+      "category": "ai-tools",
+      "tags": [
+        "mutagent",
+        "cli",
+        "setup",
+        "agent-tools",
+        "feedback"
+      ],
+      "homepage": "https://github.com/mutagent-io/skills",
+      "repository": "https://github.com/mutagent-io/skills",
+      "license": "MIT"
+    }
+  ]
+}
